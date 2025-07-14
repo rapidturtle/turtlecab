@@ -17,6 +17,7 @@
     "@awesome.me/kit-92e90780a1": "^1.0.25",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@headlessui/vue": "^1.7.23",
     "@tailwindcss/vite": "^4.1.11",
     "tailwindcss": "^4.1.11",
     "vue": "^3.5.17",
