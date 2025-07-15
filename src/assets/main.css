@@ -4,6 +4,19 @@
 @theme {
   --font-sans: 'Nunito', sans-serif;
 
+  /* Primary color scale - currently using blue-ribbon */
+  --color-primary-50: var(--color-blue-ribbon-50);
+  --color-primary-100: var(--color-blue-ribbon-100);
+  --color-primary-200: var(--color-blue-ribbon-200);
+  --color-primary-300: var(--color-blue-ribbon-300);
+  --color-primary-400: var(--color-blue-ribbon-400);
+  --color-primary-500: var(--color-blue-ribbon-500);
+  --color-primary-600: var(--color-blue-ribbon-600);
+  --color-primary-700: var(--color-blue-ribbon-700);
+  --color-primary-800: var(--color-blue-ribbon-800);
+  --color-primary-900: var(--color-blue-ribbon-900);
+  --color-primary-950: var(--color-blue-ribbon-950);
+
   --color-lightning-yellow-50: oklch(98.69% 0.02 95.28);
   --color-lightning-yellow-100: oklch(96.64% 0.06 97.39);
   --color-lightning-yellow-200: oklch(93.17% 0.12 96.91);
@@ -15,4 +28,28 @@
   --color-lightning-yellow-800: oklch(47.94% 0.13 47.32);
   --color-lightning-yellow-900: oklch(41.85% 0.11 46.66);
   --color-lightning-yellow-950: oklch(28.26% 0.07 47.14);
+
+  --color-blue-ribbon-50: oklch(96.51% 0.02 259.42);
+  --color-blue-ribbon-100: oklch(91.94% 0.04 262.93);
+  --color-blue-ribbon-200: oklch(86.45% 0.07 259.65);
+  --color-blue-ribbon-300: oklch(78.07% 0.11 256.59);
+  --color-blue-ribbon-400: oklch(67.39% 0.17 259.16);
+  --color-blue-ribbon-500: oklch(57.68% 0.23 263.09);
+  --color-blue-ribbon-600: oklch(53.47% 0.26 265.09);
+  --color-blue-ribbon-700: oklch(46.04% 0.27 264.73);
+  --color-blue-ribbon-800: oklch(39.86% 0.23 265.59);
+  --color-blue-ribbon-900: oklch(35.47% 0.18 266.45);
+  --color-blue-ribbon-950: oklch(26.45% 0.11 269.22);
+
+  --color-spring-green-50: oklch(98.4% 0.02 161.76);
+  --color-spring-green-100: oklch(96.45% 0.05 162.46);
+  --color-spring-green-200: oklch(93.62% 0.1 160.52);
+  --color-spring-green-300: oklch(90.21% 0.16 158.12);
+  --color-spring-green-400: oklch(87.82% 0.22 152.24);
+  --color-spring-green-500: oklch(81.62% 0.23 149.79);
+  --color-spring-green-600: oklch(71.1% 0.2 149.3);
+  --color-spring-green-700: oklch(59.44% 0.16 150.52);
+  --color-spring-green-800: oklch(49.92% 0.13 152.28);
+  --color-spring-green-900: oklch(43.31% 0.11 153.48);
+  --color-spring-green-950: oklch(29.55% 0.08 153.66);
 }
