@@ -22,9 +22,9 @@
     lru-cache "^10.4.3"
 
 "@awesome.me/kit-92e90780a1@^1.0.25":
-  version "1.0.37"
-  resolved "https://npm.fontawesome.com/@awesome.me/kit-92e90780a1/-/kit-92e90780a1-1.0.37.tgz#79f6e9538dabac18a6baae6097f956a10d7dd786"
-  integrity sha512-7po50d6IMczph2RiFuvCtoc41L8UNSxere6ryCTbTzKZtqRhDkVMJOW09jS+Sya8A2BKDpuCfVwgjEJbbCGapw==
+  version "1.0.65"
+  resolved "https://npm.fontawesome.com/@awesome.me/kit-92e90780a1/-/kit-92e90780a1-1.0.65.tgz#2fbcdd4b6963d4fe1c8a6eaa222cec7ab213e17a"
+  integrity sha512-zAOkA0fnVgIAjtXLYTxNNLIkf9S4jNIAElu+VyYJmYErFPkjW63QQcUUdnLvGFgIUxsilkF1kxRPSmxklERIag==
   dependencies:
     "@fortawesome/fontawesome-common-types" "^6.7.2"
 
