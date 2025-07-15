@@ -1,10 +1,43 @@
 <script setup lang="ts">
 import ImageSantaFe from '@/assets/images/2023-hyundai-santa-fe-hybrid.jpg'
 import BaseTextGradient from '@/components/base/BaseTextGradient.vue'
+
+const features = [
+  {
+    name: 'Private rides only',
+    description: 'You won’t be sharing with strangers—ever.',
+    icon: ['fadr', 'user-secret'],
+  },
+  {
+    name: 'Advanced booking required',
+    description: 'Book at least 2 days in advance for a guaranteed ride.',
+    icon: ['fadr', 'calendar-clock'],
+  },
+  {
+    name: 'Contactless payments accepted',
+    description: 'Venmo, Apple Pay, Google Pay, and tap-to-pay cards—no cash needed.',
+    icon: ['fadr', 'credit-card'],
+  },
+  {
+    name: 'Optional furry companion',
+    description: 'Request a ride with Jinx, my friendly cockapoo—or bring your own.',
+    icon: ['fadr', 'dog'],
+  },
+  {
+    name: 'Based in Hendersonville',
+    description: 'Serving Middle Tennessee, including BNA airport.',
+    icon: ['fadr', 'map-location-dot'],
+  },
+  {
+    name: 'Smooth, quiet ride',
+    description: 'Late-model black SUV, well-maintained and comfortable.',
+    icon: ['fadr', 'car-side'],
+  },
+]
 </script>
 
 <template>
-  <div class="bg-stone-900">
+  <section class="bg-stone-900">
     <div class="relative isolate pt-14">
       <div
         class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -93,5 +126,58 @@ import BaseTextGradient from '@/components/base/BaseTextGradient.vue'
         />
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="bg-stone-900 py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">
+          Why ride with Turtle Cab?
+        </h2>
+        <p class="mt-6 text-lg/8 text-stone-400">
+          Personal service, clear pricing, and no surprises.
+        </p>
+      </div>
+      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+        <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+          <div v-for="feature in features" :key="feature.name" class="flex flex-col">
+            <dt class="text-base/7 font-semibold text-white">
+              <div
+                class="bg-primary-500 mb-6 flex size-10 items-center justify-center rounded-full"
+              >
+                <font-awesome-icon :icon="feature.icon" class="text-white" aria-hidden="true" />
+              </div>
+              {{ feature.name }}
+            </dt>
+            <dd class="mt-1 flex flex-auto flex-col text-base/7 text-stone-400">
+              <p class="flex-auto">{{ feature.description }}</p>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-primary-700">
+    <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+          Let’s make your next ride simple.
+        </h2>
+        <p class="text-primary-300 mx-auto mt-6 max-w-xl text-lg/8 text-pretty">
+          No apps. No surge pricing. Just a clean car, a friendly driver, and a smooth experience
+          from start to finish.
+        </p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <RouterLink
+            :to="{ name: 'rides' }"
+            class="text-primary-600 hover:bg-primary-50 inline-flex items-center gap-x-2 rounded-full bg-white px-3.5 py-2.5 text-sm font-semibold shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
+            Book a ride
+            <font-awesome-icon :icon="['fadr', 'car-side']" class="-mr-0.5" />
+          </RouterLink>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>

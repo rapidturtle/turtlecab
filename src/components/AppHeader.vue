@@ -13,7 +13,7 @@ const mobileMenuOpen = ref(false)
 </script>
 
 <template>
-  <header class="absolute inset-x-0 top-0 z-50">
+  <header class="sticky inset-x-0 top-0 z-50 -mb-20 backdrop-blur-xl">
     <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <RouterLink :to="{ name: 'home' }" class="-m-1.5 p-1.5">
@@ -36,16 +36,18 @@ const mobileMenuOpen = ref(false)
           v-for="item in navigation"
           :key="item.name"
           :to="item.href"
-          class="text-sm/6 font-semibold text-white"
+          class="text-sm/6 font-semibold text-white text-shadow-xs/50"
           active-class="border-b-2 border-primary-500"
           >{{ item.name }}</RouterLink
         >
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <RouterLink :to="{ name: 'rides' }" class="text-sm/6 font-semibold text-white"
+        <RouterLink
+          :to="{ name: 'rides' }"
+          class="bg-primary-500 hover:bg-primary-400 focus-visible:outline-primary-500 inline-flex items-center gap-x-2 rounded-full px-2.5 py-1 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2"
           >Book a ride
-          <span aria-hidden="true"><font-awesome-icon :icon="['fadr', 'arrow-right']" /></span
-        ></RouterLink>
+          <font-awesome-icon :icon="['fadr', 'arrow-right']" class="-mr-0.5" aria-hidden="true"
+        /></RouterLink>
       </div>
     </nav>
     <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
