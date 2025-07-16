@@ -38,7 +38,7 @@ const navigation = [
         &copy; {{ currentYear }} Turtle Cab. All rights reserved. Designed by
         <a
           href="https://rapidturtle.com"
-          class="hover:text-white"
+          class="text-stone-300 hover:text-white"
           target="_blank"
           rel="noopener noreferrer"
         >
