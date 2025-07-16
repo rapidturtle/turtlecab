@@ -42,7 +42,8 @@ const navigation = [
           target="_blank"
           rel="noopener noreferrer"
         >
-          <font-awesome-icon :icon="['fak', 'rapidturtle']" aria-hidden="true" />Rapid Turtle</a
+          <font-awesome-icon :icon="['fak', 'rapidturtle']" class="mr-1" aria-hidden="true" />Rapid
+          Turtle</a
         >.
       </p>
     </div>

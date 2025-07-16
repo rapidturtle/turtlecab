@@ -22,9 +22,9 @@
     lru-cache "^10.4.3"
 
 "@awesome.me/kit-92e90780a1@^1.0.25":
-  version "1.0.65"
-  resolved "https://npm.fontawesome.com/@awesome.me/kit-92e90780a1/-/kit-92e90780a1-1.0.65.tgz#2fbcdd4b6963d4fe1c8a6eaa222cec7ab213e17a"
-  integrity sha512-zAOkA0fnVgIAjtXLYTxNNLIkf9S4jNIAElu+VyYJmYErFPkjW63QQcUUdnLvGFgIUxsilkF1kxRPSmxklERIag==
+  version "1.0.91"
+  resolved "https://npm.fontawesome.com/@awesome.me/kit-92e90780a1/-/kit-92e90780a1-1.0.91.tgz#56f8e48776e59f96ec44802fad17097e9ccb1647"
+  integrity sha512-zl4QF26X/ngcpIp3aY5SVc87BbJA1oOVMPC8MBdp+3Kev/AbbiqvWBT21BwiP0Rby952zWu8YuNySUu+tEX3jw==
   dependencies:
     "@fortawesome/fontawesome-common-types" "^6.7.2"
 
@@ -2163,9 +2163,9 @@ picomatch@^2.3.1:
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
 picomatch@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.2.tgz#77c742931e8f3b8820946c76cd0c1f13730d1dab"
-  integrity sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.3.tgz#796c76136d1eead715db1e7bad785dedd695a042"
+  integrity sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==
 
 pidtree@^0.6.0:
   version "0.6.0"
