@@ -13,23 +13,44 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: () => import('@/views/AboutView.vue'),
+      meta: {
+        title: 'About Us',
+      },
     },
     {
       path: '/contact',
       name: 'contact',
       component: () => import('@/views/ContactView.vue'),
+      meta: {
+        title: 'Contact Us',
+      },
     },
     {
       path: '/pricing',
       name: 'pricing',
       component: () => import('@/views/PricingView.vue'),
+      meta: {
+        title: 'Pricing',
+      },
     },
     {
       path: '/rides',
       name: 'rides',
       component: () => import('@/views/RidesView.vue'),
+      meta: {
+        title: 'Rides',
+      },
     },
   ],
+})
+
+router.beforeEach((to, from, next) => {
+  if (to.meta.title) {
+    document.title = to.meta.title + ' | Turtle Cab'
+  } else {
+    document.title = 'Turtle Cab'
+  }
+  next()
 })
 
 export default router
