@@ -89,17 +89,17 @@ const paymentMethods = [{ name: 'Apple Pay' }, { name: 'Google Pay' }, { name: '
         "
       />
     </div>
-    <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-        Simple, fair pricing
-      </h2>
-      <p class="mt-8 text-lg font-medium text-pretty text-stone-400 sm:text-xl/8">
-        Turtle Cab offers reliable, private rides with flat rates to popular destinations and clear
-        per-mile pricing for everything else.
-        <span class="text-nowrap">No surge pricing. No surprises.</span>
-      </p>
-    </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center">
+        <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+          Simple, fair pricing
+        </h2>
+        <p class="mt-8 text-lg font-medium text-pretty text-stone-400 sm:text-xl/8">
+          Turtle Cab offers reliable, private rides with flat rates to popular destinations and
+          clear per-mile pricing for everything else.
+          <span class="text-nowrap">No surge pricing. No surprises.</span>
+        </p>
+      </div>
       <div
         class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
       >

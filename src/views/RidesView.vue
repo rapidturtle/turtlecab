@@ -52,7 +52,7 @@ onMounted(() => {
       </p>
     </div>
   </section>
-  <section class="bg-stone-900 py-24 sm:py-32">
+  <section class="bg-stone-900 pb-24 sm:pb-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <iframe
         data-tally-src="https://tally.so/embed/w29Jj9?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
