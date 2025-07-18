@@ -6,7 +6,7 @@ const contactOptions = [
     description:
       'Fastest way to reach me—especially while I’m on the road. I can reply quickly through CarPlay.',
     action: 'Send a text',
-    link: 'sms:8013190475?body=Hi%20there!%20I%20have%20questions%20about%20booking%20a%20ride.',
+    link: 'sms:5037738785?body=Hi%20there!%20I%20have%20questions%20about%20booking%20a%20ride.',
   },
   {
     icon: ['fadr', 'envelope'],
@@ -14,7 +14,7 @@ const contactOptions = [
     description:
       'Great for ride requests or questions. I usually check and respond within a few hours.',
     action: 'Send an email',
-    link: 'mailto:partydrone+turtlecab@icloud.com?subject=Ride%20Inquiry&body=Hi%20Andy,%0A%0AI%20have%20a%20question%20about%20booking%20a%20ride.%0A%0AThanks!',
+    link: 'mailto:andy@turtle.cab?subject=Ride%20Inquiry&body=Hi%20Andy,%0A%0AI%20have%20a%20question%20about%20booking%20a%20ride.%0A%0AThanks!',
   },
   {
     icon: ['fab', 'facebook-messenger'],

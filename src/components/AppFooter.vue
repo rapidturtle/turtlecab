@@ -2,15 +2,14 @@
 const currentYear = new Date().getFullYear()
 
 const navigation = [
-  { name: 'call', href: 'tel:8013190475', icon: ['fas', 'mobile'] },
   {
     name: 'text',
-    href: 'sms:8013190475?body=Hi,%20Andy!%20I%E2%80%99m%20interested%20in%20booking%20a%20ride.',
+    href: 'sms:5037738785?body=Hi,%20Andy!%20I%E2%80%99m%20interested%20in%20booking%20a%20ride.',
     icon: ['fas', 'comment'],
   },
   {
     name: 'email',
-    href: 'mailto:partydrone+turtlecab@icloud.com?subject=Hi,%20Andy!%20I%E2%80%99m%20interested%20in%20booking%20a%20ride.',
+    href: 'mailto:andy@turtle.cab?subject=Hi,%20Andy!%20I%E2%80%99m%20interested%20in%20booking%20a%20ride.',
     icon: ['fas', 'envelope'],
   },
   { name: 'Facebook', href: 'https://facebook.com/turtlecab', icon: ['fab', 'facebook'] },
