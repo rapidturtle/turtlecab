@@ -14,7 +14,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@awesome.me/kit-92e90780a1": "^1.0.25",
+    "@awesome.me/kit-92e90780a1": "^1.0.98",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@headlessui/vue": "^1.7.23",

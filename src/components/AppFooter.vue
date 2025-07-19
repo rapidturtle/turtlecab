@@ -12,8 +12,9 @@ const navigation = [
     href: 'mailto:andy@turtle.cab?subject=Hi,%20Andy!%20I%E2%80%99m%20interested%20in%20booking%20a%20ride.',
     icon: ['fas', 'envelope'],
   },
-  { name: 'Facebook', href: 'https://facebook.com/turtlecab', icon: ['fab', 'facebook'] },
   { name: 'Messenger', href: 'https://m.me/turtlecab', icon: ['fab', 'facebook-messenger'] },
+  { name: 'Facebook', href: 'https://facebook.com/turtlecab', icon: ['fab', 'facebook'] },
+  { name: 'Venmo', href: 'https://venmo.com/turtlecab', icon: ['fak', 'venmo'] },
 ]
 </script>
 
