@@ -122,7 +122,7 @@ const paymentMethods = [{ name: 'Apple Pay' }, { name: 'Google Pay' }, { name: '
             </li>
           </ul>
         </UICard>
-        <UICard title="Everywhere else" :icon="['fadr', 'compass']">
+        <UICard title="Everywhere else" :icon="['fadr', 'map-location-dot']">
           <div class="mt-4 flex items-baseline gap-x-2">
             <span class="text-2xl font-semibold text-white">$2</span>
             <span>/mile</span>
@@ -163,12 +163,21 @@ const paymentMethods = [{ name: 'Apple Pay' }, { name: 'Google Pay' }, { name: '
         <UICard title="How to pay" :icon="['fadr', 'circle-dollar-to-slot']">
           <ul role="list" class="mt-4 space-y-2">
             <li class="flex gap-x-2">
-              <font-awesome-icon
-                :icon="['fadr', 'circle-check']"
-                class="text-spring-green-400 no-flex mt-1"
-                fixed-width
-              />
-              <span> Venmo <span class="text-sm text-stone-500">(preferred)</span> </span>
+              <a
+                href="https://venmo.com/TurtleCab"
+                class="group"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><font-awesome-icon
+                  :icon="['fadr', 'circle-check']"
+                  class="text-spring-green-400 no-flex mt-1"
+                  fixed-width
+                />
+                <span class="text-stone-400 group-hover:text-white">
+                  Venmo
+                  <span class="text-sm text-stone-500">(preferred)</span>
+                </span></a
+              >
             </li>
 
             <li

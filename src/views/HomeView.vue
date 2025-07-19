@@ -26,7 +26,7 @@ const features = [
   {
     name: 'Based in Hendersonville',
     description: 'Serving Middle Tennessee, including BNA airport.',
-    icon: ['fadr', 'map-location-dot'],
+    icon: ['fadr', 'location-dot'],
   },
   {
     name: 'Smooth, quiet ride',
@@ -149,7 +149,7 @@ const features = [
               </div>
               {{ feature.name }}
             </dt>
-            <dd class="mt-1 flex flex-auto flex-col text-base/7 text-stone-400">
+            <dd class="mt-1 flex flex-auto flex-col text-base/7 text-pretty text-stone-400">
               <p class="flex-auto">{{ feature.description }}</p>
             </dd>
           </div>
