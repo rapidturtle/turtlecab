@@ -24,7 +24,11 @@ const includedFeatures = [
   { name: 'Pet-friendly', icon: ['fadr', 'dog'] },
 ]
 
-const paymentMethods = [{ name: 'Apple Pay' }, { name: 'Google Pay' }, { name: 'Tap to Pay' }]
+const paymentMethods = [
+  { name: 'Apple Pay' },
+  { name: 'Google Pay' },
+  { name: 'Tap to Pay credit cards' },
+]
 </script>
 
 <template>
