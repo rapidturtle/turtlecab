@@ -5,7 +5,6 @@ import imageSantaFe from '@/assets/images/hyundai-santa-fe-2023-exterior-oem-01.
 const flatRateDestinations = [
   { name: 'BNA Airport', price: 50, icon: ['fadr', 'plane'] },
   { name: 'Downtown Nashville', price: 45, icon: ['fadr', 'city'] },
-  { name: 'Opry Mills / Opryland Hotel', price: 35, icon: ['fadr', 'hotel'] },
 ]
 
 const bookingPolicies = [
