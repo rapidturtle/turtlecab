@@ -53,3 +53,8 @@
   --color-spring-green-900: oklch(43.31% 0.11 153.48);
   --color-spring-green-950: oklch(29.55% 0.08 153.66);
 }
+
+::selection {
+  background-color: color-mix(in oklab, var(--color-lightning-yellow-400) 50%, transparent);
+  color: var(--color-white);
+}
