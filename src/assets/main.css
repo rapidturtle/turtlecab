@@ -17,6 +17,7 @@
   --color-primary-900: var(--color-blue-ribbon-900);
   --color-primary-950: var(--color-blue-ribbon-950);
 
+  /* Brand yellow color scale */
   --color-lightning-yellow-50: oklch(98.69% 0.02 95.28);
   --color-lightning-yellow-100: oklch(96.64% 0.06 97.39);
   --color-lightning-yellow-200: oklch(93.17% 0.12 96.91);
@@ -29,6 +30,7 @@
   --color-lightning-yellow-900: oklch(41.85% 0.11 46.66);
   --color-lightning-yellow-950: oklch(28.26% 0.07 47.14);
 
+  /* Complementary blue color scale */
   --color-blue-ribbon-50: oklch(96.51% 0.02 259.42);
   --color-blue-ribbon-100: oklch(91.94% 0.04 262.93);
   --color-blue-ribbon-200: oklch(86.45% 0.07 259.65);
@@ -41,6 +43,7 @@
   --color-blue-ribbon-900: oklch(35.47% 0.18 266.45);
   --color-blue-ribbon-950: oklch(26.45% 0.11 269.22);
 
+  /* Intermediate green color scale */
   --color-spring-green-50: oklch(98.4% 0.02 161.76);
   --color-spring-green-100: oklch(96.45% 0.05 162.46);
   --color-spring-green-200: oklch(93.62% 0.1 160.52);
@@ -52,6 +55,19 @@
   --color-spring-green-800: oklch(49.92% 0.13 152.28);
   --color-spring-green-900: oklch(43.31% 0.11 153.48);
   --color-spring-green-950: oklch(29.55% 0.08 153.66);
+
+  /* Intermediate red color scale */
+  --color-radical-red-50: oklch(96.75% 0.02 8.16);
+  --color-radical-red-100: oklch(93.82% 0.03 3.66);
+  --color-radical-red-200: oklch(88.88% 0.06 3.29);
+  --color-radical-red-300: oklch(80.5% 0.12 5.83);
+  --color-radical-red-400: oklch(71.66% 0.18 8.19);
+  --color-radical-red-500: oklch(64.5% 0.24 14.82);
+  --color-radical-red-600: oklch(60.6% 0.24 13.71);
+  --color-radical-red-700: oklch(53.27% 0.21 12.85);
+  --color-radical-red-800: oklch(47.1% 0.18 9.49);
+  --color-radical-red-900: oklch(42.27% 0.16 6.05);
+  --color-radical-red-950: oklch(27.74% 0.11 7.76);
 }
 
 ::selection {

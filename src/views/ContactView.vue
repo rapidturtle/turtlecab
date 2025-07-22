@@ -40,13 +40,13 @@ const contactOptions = [
     <img
       src="https://images.unsplash.com/photo-1693871619509-d439714233dc?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&blend=1c1917&sat=-100&exp=15&blend-mode=multiply"
       alt="Young man calling on his mobile phone"
-      class="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
+      class="absolute inset-0 -z-10 size-full object-cover object-right md:object-[50%_30%]"
     />
     <div
       class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
     >
       <div
-        class="aspect-1097/845 w-274.25 bg-linear-to-tr from-[var(--color-lightning-yellow-500)] to-[var(--color-blue-ribbon-500)] opacity-20"
+        class="aspect-1097/845 w-274.25 bg-linear-to-tr from-[var(--color-radical-red-500)] to-[var(--color-blue-ribbon-500)] opacity-20"
         style="
           clip-path: polygon(
             74.1% 44.1%,
@@ -73,7 +73,7 @@ const contactOptions = [
       class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
     >
       <div
-        class="aspect-1097/845 w-274.25 bg-linear-to-tr from-[var(--color-lightning-yellow-500)] to-[var(--color-blue-ribbon-500)] opacity-20"
+        class="aspect-1097/845 w-274.25 bg-linear-to-tr from-[var(--color-radical-red-500)] to-[var(--color-lightning-yellow-500)] opacity-20"
         style="
           clip-path: polygon(
             74.1% 44.1%,

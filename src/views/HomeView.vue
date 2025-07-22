@@ -44,7 +44,7 @@ const features = [
         aria-hidden="true"
       >
         <div
-          class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[var(--color-spring-green-700)] to-[var(--color-blue-ribbon-700)] opacity-20 sm:left-[calc(50%-30rem)] sm:w-288.75"
+          class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[var(--color-radical-red-700)] to-[var(--color-blue-ribbon-700)] opacity-20 sm:left-[calc(50%-30rem)] sm:w-288.75"
           style="
             clip-path: polygon(
               74.1% 44.1%,
@@ -102,7 +102,7 @@ const features = [
         aria-hidden="true"
       >
         <div
-          class="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[var(--color-spring-green-700)] to-[var(--color-lightning-yellow-700)] opacity-20 sm:left-[calc(50%+36rem)] sm:w-288.75"
+          class="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[var(--color-radical-red-700)] to-[var(--color-lightning-yellow-700)] opacity-20 sm:left-[calc(50%+36rem)] sm:w-288.75"
           style="
             clip-path: polygon(
               74.1% 44.1%,
