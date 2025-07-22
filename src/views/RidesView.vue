@@ -45,7 +45,7 @@ onMounted(() => {
 <template>
   <section class="bg-stone-900 px-6 py-24 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Ready to ride?</h2>
+      <h1 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Ready to ride?</h1>
       <p class="mt-8 text-lg font-medium text-pretty text-stone-400 sm:text-xl/8">
         Use the form below to request your ride. I'll follow up personally to confirm details—no
         payments due until after your ride.

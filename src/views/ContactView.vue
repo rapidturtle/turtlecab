@@ -97,9 +97,9 @@ const contactOptions = [
       />
     </div>
     <div class="mx-auto max-w-2xl sm:text-center">
-      <h2 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
+      <h1 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
         Get in touch
-      </h2>
+      </h1>
       <p class="mt-8 text-lg font-medium text-pretty text-stone-400 sm:text-xl/8">
         Have a question before you book? Want to check availability or request something specific?
         I’d love to hear from you.

@@ -30,9 +30,9 @@ const people = [
   <div class="bg-stone-900 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
       <div class="mx-auto max-w-2xl">
-        <h2 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
+        <h1 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
           Meet your driver <BaseTextGradient class="no-wrap">(and crew)</BaseTextGradient>
-        </h2>
+        </h1>
         <p class="mt-6 text-lg text-stone-400 sm:text-xl/8">
           Turtle Cab is more than a ride. Get to know your driver, your co-pilot, and the
           comfortable SUV that’ll get you there.

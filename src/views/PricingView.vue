@@ -94,9 +94,9 @@ const paymentMethods = [
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+        <h1 class="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
           Simple, fair pricing
-        </h2>
+        </h1>
         <p class="mt-8 text-lg font-medium text-pretty text-stone-400 sm:text-xl/8">
           Turtle Cab offers reliable, private rides with flat rates to popular destinations and
           clear per-mile pricing for everything else.
