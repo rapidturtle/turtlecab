@@ -1,45 +1,24 @@
-# .
+# README
 
-This template should help get you started developing with Vue 3 in Vite.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Recommended IDE Setup
+Things you may want to cover:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+* Ruby version
 
-## Type Support for `.vue` Imports in TS
+* System dependencies
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+* Configuration
 
-## Customize configuration
+* Database creation
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+* Database initialization
 
-## Project Setup
+* How to run the test suite
 
-```sh
-yarn
-```
+* Services (job queues, cache servers, search engines, etc.)
 
-### Compile and Hot-Reload for Development
+* Deployment instructions
 
-```sh
-yarn dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-yarn build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-yarn test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
+* ...
