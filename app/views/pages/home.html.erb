@@ -1,4 +1,125 @@
-<div>
-  <h1 class="font-bold text-4xl">Pages#home</h1>
-  <p>Find me in app/views/pages/home.html.erb</p>
-</div>
+<section class="bg-stone-900">
+  <div class="relative isolate pt-14">
+    <div aria-hidden="true" class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+      <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[var(--color-radical-red-700)] to-[var(--color-blue-ribbon-700)] opacity-20 sm:left-[calc(50%-30rem)] sm:w-288.75"></div>
+    </div>
+    <div class="py-24 sm:py-32 lg:pb-40">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+          <h1 class="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
+            Private rides.
+            <%= render "text_gradient" do %>
+              Personal service.
+            <% end %>
+          </h1>
+          <p class="mt-8 text-lg font-medium text-pretty text-stone-400 sm:text-xl/8">Welcome to <span class="text-white font-semibold">Turtle Cab</span>—a small, private car service based in Hendersonville, TN. Whether you’re headed to the airport, a doctor’s appointment, or just need a relaxed ride across town, I’ll get you there on time and hassle-free.</p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <%= link_to rides_path, class: "inline-flex items-center gap-x-2 rounded-full bg-primary-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-primary-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500" do %>
+              <span>Book a ride</span>
+              <i class="fa-duotone fa-regular fa-car-side -mr-0.5"></i>
+            <% end %>
+          </div>
+        </div>
+
+        <%= image_tag "2023-hyundai-santa-fe-hybrid.jpg", alt: "2023 Hyundai Santa Fe Hybrid", class: "mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24" %>
+      </div>
+    </div>
+    <div aria-hidden="true" class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
+      <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[var(--color-radical-red-700)] to-[var(--color-lightning-yellow-700)] opacity-20 sm:left-[calc(50%+36rem)] sm:w-288.75"></div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-stone-900 py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h2 class="text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">Why ride with Turtle Cab?</h2>
+      <p class="mt-6 text-lg/8 text-stone-300">Personal service, clear pricing, and no surprises.</p>
+    </div>
+    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+      <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+        <div class="flex flex-col">
+          <dt class="text-base/7 font-semibold text-white">
+            <div class="mb-6 flex size-10 items-center justify-center rounded-full bg-primary-500">
+              <i class="fa-duotone fa-light fa-user-secret fa-lg"></i>
+            </div>
+            Private rides only
+          </dt>
+          <dd class="mt-1 text-base/7 text-stone-400">
+            <p>You won’t be sharing with strangers—ever.</p>
+          </dd>
+        </div>
+        <div class="flex flex-col">
+          <dt class="text-base/7 font-semibold text-white">
+            <div class="mb-6 flex size-10 items-center justify-center rounded-full bg-primary-500">
+              <i class="fa-duotone fa-light fa-calendar-clock fa-lg"></i>
+            </div>
+            Advanced booking required
+          </dt>
+          <dd class="mt-1 text-base/7 text-stone-400">
+            <p>Book at least 2 days in advance for a guaranteed ride.</p>
+          </dd>
+        </div>
+        <div class="flex flex-col">
+          <dt class="text-base/7 font-semibold text-white">
+            <div class="mb-6 flex size-10 items-center justify-center rounded-full bg-primary-500">
+              <i class="fa-duotone fa-light fa-credit-card-front fa-lg"></i>
+            </div>
+            Contactless payments accepted
+          </dt>
+          <dd class="mt-1 text-base/7 text-stone-400">
+            <p>Venmo, Apple Pay, Google Pay, and tap-to-pay cards—no cash needed.</p>
+          </dd>
+        </div>
+        <div class="flex flex-col">
+          <dt class="text-base/7 font-semibold text-white">
+            <div class="mb-6 flex size-10 items-center justify-center rounded-full bg-primary-500">
+              <i class="fa-duotone fa-light fa-dog fa-lg"></i>
+            </div>
+            Optional furry companion
+          </dt>
+          <dd class="mt-1 text-base/7 text-stone-400">
+            <p>Request a ride with Jinx, my friendly cockapoo—or bring your own.</p>
+          </dd>
+        </div>
+        <div class="flex flex-col">
+          <dt class="text-base/7 font-semibold text-white">
+            <div class="mb-6 flex size-10 items-center justify-center rounded-full bg-primary-500">
+              <i class="fa-duotone fa-light fa-location-dot fa-lg"></i>
+            </div>
+            Based in Hendersonville
+          </dt>
+          <dd class="mt-1 text-base/7 text-stone-400">
+            <p>Serving Middle Tennessee, including BNA airport.</p>
+          </dd>
+        </div>
+        <div class="flex flex-col">
+          <dt class="text-base/7 font-semibold text-white">
+            <div class="mb-6 flex size-10 items-center justify-center rounded-full bg-primary-500">
+              <i class="fa-duotone fa-light fa-car-side fa-lg"></i>
+            </div>
+            Smooth, quiet ride
+          </dt>
+          <dd class="mt-1 text-base/7 text-stone-400">
+            <p>Late-model black SUV, well-maintained and comfortable.</p>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="bg-primary-700">
+  <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Let’s make your next ride simple.</h2>
+      <p class="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-primary-200">No apps. No surge pricing. Just a clean car, a friendly driver, and a smooth experience from start to finish.</p>
+      <div class="mt-10 flex items-center justify-center gap-x-6">
+        <%= link_to rides_path, class: "inline-flex items-center gap-x-2 rounded-full bg-white px-3.5 py-2.5 text-sm font-semibold text-primary-600 shadow-xs hover:bg-primary-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white" do %>
+          Book a ride
+          <i class="fa-duotone fa-regular fa-car-side -mr-0.5"></i>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
