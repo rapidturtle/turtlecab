@@ -1,0 +1,23 @@
+<footer class="bg-stone-900">
+  <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
+    <div class="flex justify-center gap-x-6 md:order-2">
+      <%= sms_to "5037738785", class: "text-stone-400 hover:text-white", body: "Hi, Andy! I’m interested in booking a ride." do %>
+        <span class="sr-only">Facebook</span>
+        <i class="fa-solid fa-comment fa-lg"></i>
+      <% end %>
+      <%= mail_to "andy@turtle.cab", class: "text-stone-400 hover:text-white", subject: "Hi, Andy! I’m interested in booking a ride." do %>
+        <span class="sr-only">Facebook</span>
+        <i class="fa-solid fa-envelope fa-lg"></i>
+      <% end %>
+      <%= link_to "https://m.me/turtlecab", class: "text-stone-400 hover:text-white", target: "_blank", rel: "noopener noreferrer" do %>
+        <span class="sr-only">Facebook</span>
+        <i class="fa-brands fa-facebook-messenger fa-lg"></i>
+      <% end %>
+      <%= link_to "https://facebook.com/turtlecab", class: "text-stone-400 hover:text-white", target: "_blank", rel: "noopener noreferrer" do %>
+        <span class="sr-only">Facebook</span>
+        <i class="fa-brands fa-facebook fa-lg"></i>
+      <% end %>
+    </div>
+    <p class="mt-8 text-center text-sm/6 text-stone-400 md:order-1 md:mt-0">&copy; <%= Time.current.year %> Turtle Cab. All rights reserved. Designed by <%= link_to "https://rapidturtle.com/", class: "text-stone-300 hover:text-white text-nowrap", target: "_blank", rel: "noopener noreferrer" do %><i class="fa-kit fa-rapidturtle fa-lg mr-1"></i>Rapid Turtle<% end %>.</p>
+  </div>
+</footer>
