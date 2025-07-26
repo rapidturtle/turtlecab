@@ -34,7 +34,9 @@
       "extensions": [
         "bradlc.vscode-tailwindcss",
         "stivo.tailwind-fold",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "aliariff.vscode-erb-beautify",
+        "vortizhe.simple-ruby-erb"
       ]
     }
   }
